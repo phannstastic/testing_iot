@@ -1,6 +1,6 @@
 // npm install node-telegram-bot-api express pg mqtt
 const express = require('express');
-const TelegramBot = require('8580448561:AAERRvFznUnzFR85z-ce80EGgN2J7XCK-TU');
+const TelegramBot = require('node-telegram-bot-api');
 const { Client } = require('pg');
 const mqtt = require('mqtt');
 
