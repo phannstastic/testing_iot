@@ -1,0 +1,17 @@
+{
+  "name": "railway-iot-bot",
+  "version": "1.0.0",
+  "description": "IoT Bot dan Worker",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "start:bot": "node bot.js",
+    "start:worker": "node worker.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mqtt": "^5.3.4",
+    "node-telegram-bot-api": "^0.64.0",
+    "pg": "^8.11.3"
+  }
+}
