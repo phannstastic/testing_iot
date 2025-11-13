@@ -9,7 +9,7 @@ const TOKEN = process.env.TELEGRAM_TOKEN;
 const DATABASE_URL = process.env.DATABASE_URL;
 const MQTT_BROKER_URL = process.env.MQTT_URL;
 const PORT = process.env.PORT || 3000;
-const APP_URL = process.env.RAILWAY_STATIC_URL; // URL publik dari Railway
+const APP_URL = process.env.RENDER_EXTERNAL_URL; // Diisi otomatis oleh Render
 
 if (!TOKEN || !DATABASE_URL || !MQTT_BROKER_URL || !APP_URL) {
   console.error("Error: Variabel environment (TOKEN, DB_URL, MQTT_URL, APP_URL) belum lengkap.");
